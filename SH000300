@@ -1742,10 +1742,6 @@ int main(int argc, char* argv[])
 			int res=dataPreProcess(today,day_fu1,day_fu2,day_fu3,day_fu4,day_fu5,kk,IndexCode,HeyueTag);
 			//实盘--------------------------------------------------------------------------------
 			cout<<"prepare to login---";
-			//if(!trader_login(1000,"hj887012",'1',"bying7573"))//实盘检查
-			//if(!trader_login(1001,"yl881000",'1',"yl123321"))
-			//if(!trader_login(2100,"205774",'1',"568568"))
-			//if(!trader_login(2100,"211821",'1',"210037"))	
 
 			//CTP
 			os_erro_msg<<"main_thread_id:"<<syscall(__NR_gettid)<<endl;
